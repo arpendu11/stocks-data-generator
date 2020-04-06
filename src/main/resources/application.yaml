@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  
+#spring:
+#  jpa:#    show-sql: true#  datasource:#    url: jdbc:mysql://127.0.0.1:3306/mysql
+#    username: root
+#    password: password
+  
+#spring:
+#  kafka:#    producer:#      bootstrap-servers: localhost:9092#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer      
