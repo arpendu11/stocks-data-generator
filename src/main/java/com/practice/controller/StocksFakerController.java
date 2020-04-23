@@ -30,7 +30,7 @@ public class StocksFakerController {
 		final Date dateObjFrom = sdf.parse("2001-01-01T01:37:56");
 		final Date dateObjTo = sdf.parse("2020-03-31T01:37:56");
 		
-		for (int i = 0; i < 2000; i++) {
+		for (int i = 0; i < 200; i++) {
 			Stock stock = new Stock(faker.date().between(dateObjFrom, dateObjTo).toString(),
 					faker.company().name(),
 					Float.parseFloat(faker.commerce().price(20, 1000)),
@@ -56,7 +56,7 @@ public class StocksFakerController {
 		final Date dateObjFrom = sdf.parse("2000-01-01T01:37:56");
 		final Date dateObjTo = sdf.parse("2000-12-31T01:37:56");
 		
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 50; i++) {
 			StockProfile stockProfile = new StockProfile(faker.company().name(),
 					faker.company().profession(),
 					faker.company().industry(),
