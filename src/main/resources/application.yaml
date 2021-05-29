@@ -1,5 +1,9 @@
 server:
   port: 8081
+
+kafka:
+  bootstrapServers: 10.204.102.131:9092
+  group: group_json
   
 #spring:
 #  jpa:#    show-sql: true#  datasource:#    url: jdbc:mysql://127.0.0.1:3306/mysql
